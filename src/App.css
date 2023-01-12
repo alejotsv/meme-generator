@@ -14,4 +14,28 @@
   align-items: center;
 }
 
+.header-logo {
+  margin-left: 7%;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;  
+  display: flex;
+  align-items: center;
+}
+
+.header-logo > img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 10px;
+}
+
+.header-title {
+  margin-right: 7%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
 
