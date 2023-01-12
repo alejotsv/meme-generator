@@ -1,3 +1,17 @@
-#root {  
-  margin: 0 auto;  
+* {
+  margin: 0 auto;
 }
+
+.header {
+  background-color: rgba(103, 34, 128, 1);
+  color: white;
+  height: 65px;
+  margin: 0;
+  padding: 0;
+
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+
