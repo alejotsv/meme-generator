@@ -40,3 +40,20 @@
   font-size: 12px;
 }
 
+.input-fields {    
+  margin-top: 2rem;
+  height: 5rem;
+  width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-fields > input {
+  height: 35px;
+  width: 235px;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  border: 2px solid #ccc;
+}
+
