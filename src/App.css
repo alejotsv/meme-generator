@@ -57,3 +57,13 @@
   border: 2px solid #ccc;
 }
 
+.generate-button {
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+}
+
+.generate-button > button {
+  width: 72.5%;
+}
+

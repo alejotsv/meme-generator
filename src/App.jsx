@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
-import InputFields from './components/InputFields';
+import Top from './components/Top';
 
 const App = () => {
   return(
     <div>
       <Header />
-      <InputFields />
+      <Top />
     </div>
   )
 }
