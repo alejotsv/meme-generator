@@ -43,7 +43,7 @@
 .input-fields {    
   margin-top: 2rem;
   height: 5rem;
-  width: 70rem;
+  width: 48rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@
 
 .input-fields > input {
   height: 35px;
-  width: 235px;
+  width: 275px;
   border-radius: 5px;
   padding-left: 0.5rem;
   border: 2px solid #ccc;
@@ -64,6 +64,18 @@
 }
 
 .generate-button > button {
-  width: 72.5%;
+  width: 60.2%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  text-align: center;  
+
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
 }
 
