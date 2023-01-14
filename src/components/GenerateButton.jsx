@@ -2,9 +2,9 @@ import React from 'react';
 
 const GenerateButton = () => {
   return(
-    <div className='generate-button'>
+    <span className='generate-button'>
       <button>Get a new meme image</button>
-    </div>
+    </span>
   )
 }
 

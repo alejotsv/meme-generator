@@ -1,12 +1,11 @@
 import React from 'react';
 import GenerateButton from './GenerateButton';
-import InputFields from './InputFields';
+import Form from './Form';
 
 const Top = () => {
   return(
     <div className='top-content'>
-      <InputFields />
-      <GenerateButton />
+      <Form />      
     </div>
   )
 }
