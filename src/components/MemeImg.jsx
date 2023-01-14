@@ -3,7 +3,9 @@ import shutup from '../assets/shutup.png';
 
 const MemeImg = () => {
   return(
-    <img className='meme-img' src={shutup} />
+    <div className='meme-img'>
+      <img src={shutup} />
+    </div>
   )
 }
 
