@@ -3,8 +3,8 @@ import React from 'react';
 const InputFields = () => {
   return(
     <div className='input-fields'>
-      <input />
-      <input />
+      <input maxlength='30'/>
+      <input maxlength='30'/>
     </div>
   )
 }
