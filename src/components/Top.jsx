@@ -1,5 +1,4 @@
 import React from 'react';
-import GenerateButton from './GenerateButton';
 import Form from './Form';
 import MemeImg from './MemeImg';
 
