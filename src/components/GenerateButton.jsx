@@ -7,8 +7,7 @@ const GenerateButton = () => {
 
   const getRandomMeme = () => {
     let ran = Math.floor(Math.random()*memesData.data.memes.length);
-    let memeUrl = memesData.data.memes[ran].url;
-    console.log(memeUrl);
+    let memeUrl = memesData.data.memes[ran].url;    
     setMemeImg(memeUrl);
   }
 
