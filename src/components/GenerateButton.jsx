@@ -1,18 +1,26 @@
 import React from 'react';
 import memesData from '../assets/memesData';
+import { useState } from 'react';
 
 const GenerateButton = () => {
+  const [memeImg, setMemeImg] = useState(null);
 
-  const getRandomMeme = () => {    
-    let ran = Math.floor(Math.random()*100 + 1);
+  const getRandomMeme = () => {
+    let ran = Math.floor(Math.random()*memesData.data.memes.length);
     let memeUrl = memesData.data.memes[ran].url;
     console.log(memeUrl);
+    setMemeImg(memeUrl);
   }
 
   return(
-    <span className='generate-button'>
-      <button onClick={getRandomMeme} >Get a new meme image 🖼</button>
-    </span>
+    <div>
+      <span className='generate-button'>
+        <button onClick={getRandomMeme} >Get a new meme image 🖼</button>
+      </span>
+      <div className='meme-img'>
+        <img src={memeImg} />
+      </div>
+    </div>
   )
 }
 
