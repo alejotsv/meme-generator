@@ -94,16 +94,25 @@
   width: auto;
 }
 
+.meme-img > p {       
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;  
+  /* identical to box height */    
+  color: #FFFFFF;
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+  letter-spacing: 3px;
+}
+
 .top-text {
   position: absolute;
   top: 20px;
-  z-index: 2;
-  color: white;
+  z-index: 2;   
 }
 
 .bottom-text {
   position: absolute;
   top: 450px;
-  z-index: 2;
-  color: white;
+  z-index: 2;  
 }

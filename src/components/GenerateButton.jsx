@@ -18,8 +18,8 @@ const GenerateButton = () => {
       </span>
       <div className='meme-img'>
         <img src={memeImg} />
-        <p className='top-text'>Top text</p>
-        <p className='bottom-text'>Bottom text</p>
+        <p className='top-text'>TOP TEXT</p>
+        <p className='bottom-text'>BOTTOM TEXT</p>
       </div>
     </div>
   )
